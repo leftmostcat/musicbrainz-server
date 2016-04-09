@@ -485,6 +485,7 @@ ALTER TABLE release_alias DROP CONSTRAINT IF EXISTS release_alias_fk_type;
 ALTER TABLE release_alias_type DROP CONSTRAINT IF EXISTS release_alias_type_fk_parent;
 ALTER TABLE release_annotation DROP CONSTRAINT IF EXISTS release_annotation_fk_release;
 ALTER TABLE release_annotation DROP CONSTRAINT IF EXISTS release_annotation_fk_annotation;
+ALTER TABLE release_barcode DROP CONSTRAINT IF EXISTS release_barcode_fk_release;
 ALTER TABLE release_country DROP CONSTRAINT IF EXISTS release_country_fk_release;
 ALTER TABLE release_country DROP CONSTRAINT IF EXISTS release_country_fk_country;
 ALTER TABLE release_coverart DROP CONSTRAINT IF EXISTS release_coverart_fk_id;

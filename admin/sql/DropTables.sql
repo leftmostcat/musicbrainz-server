@@ -225,6 +225,7 @@ DROP TABLE release;
 DROP TABLE release_alias;
 DROP TABLE release_alias_type;
 DROP TABLE release_annotation;
+DROP TABLE release_barcode;
 DROP TABLE release_country;
 DROP TABLE release_coverart;
 DROP TABLE release_gid_redirect;

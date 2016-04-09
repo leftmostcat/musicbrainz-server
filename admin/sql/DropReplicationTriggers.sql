@@ -167,6 +167,7 @@ DROP TRIGGER reptg_release ON release;
 DROP TRIGGER reptg_release_alias ON release_alias;
 DROP TRIGGER reptg_release_alias_type ON release_alias_type;
 DROP TRIGGER reptg_release_annotation ON release_annotation;
+DROP TRIGGER reptg_release_barcode ON release_barcode;
 DROP TRIGGER reptg_release_country ON release_country;
 DROP TRIGGER reptg_release_gid_redirect ON release_gid_redirect;
 DROP TRIGGER reptg_release_group ON release_group;

@@ -225,6 +225,7 @@ ALTER TABLE release ADD CONSTRAINT release_pkey PRIMARY KEY (id);
 ALTER TABLE release_alias ADD CONSTRAINT release_alias_pkey PRIMARY KEY (id);
 ALTER TABLE release_alias_type ADD CONSTRAINT release_alias_type_pkey PRIMARY KEY (id);
 ALTER TABLE release_annotation ADD CONSTRAINT release_annotation_pkey PRIMARY KEY (release, annotation);
+ALTER TABLE release_barcode ADD CONSTRAINT release_barcode_pkey PRIMARY KEY (release, barcode);
 ALTER TABLE release_country ADD CONSTRAINT release_country_pkey PRIMARY KEY (release, country);
 ALTER TABLE release_coverart ADD CONSTRAINT release_coverart_pkey PRIMARY KEY (id);
 ALTER TABLE release_gid_redirect ADD CONSTRAINT release_gid_redirect_pkey PRIMARY KEY (gid);

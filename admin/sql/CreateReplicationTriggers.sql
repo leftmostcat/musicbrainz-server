@@ -667,6 +667,10 @@ CREATE TRIGGER "reptg_release_annotation"
 AFTER INSERT OR DELETE OR UPDATE ON "release_annotation"
 FOR EACH ROW EXECUTE PROCEDURE "recordchange" ('verbose');
 
+CREATE TRIGGER "reptg_release_barcode"
+AFTER INSERT OR DELETE OR UPDATE ON "release_barcode"
+FOR EACH ROW EXECUTE PROCEDURE "recordchange" ('verbose');
+
 CREATE TRIGGER "reptg_release_country"
 AFTER INSERT OR DELETE OR UPDATE ON "release_country"
 FOR EACH ROW EXECUTE PROCEDURE "recordchange" ('verbose');

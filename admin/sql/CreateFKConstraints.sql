@@ -2447,6 +2447,11 @@ ALTER TABLE release_annotation
    FOREIGN KEY (annotation)
    REFERENCES annotation(id);
 
+ALTER TABLE release_barcode
+   ADD CONSTRAINT release_barcode_fk_release
+   FOREIGN KEY (release)
+   REFERENCES release(id);
+
 ALTER TABLE release_country
    ADD CONSTRAINT release_country_fk_release
    FOREIGN KEY (release)

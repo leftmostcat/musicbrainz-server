@@ -306,6 +306,7 @@ DROP INDEX recording_tag_raw_idx_tag;
 DROP INDEX recording_tag_raw_idx_track;
 DROP INDEX release_alias_idx_primary;
 DROP INDEX release_alias_idx_release;
+DROP INDEX release_barcode_idx_release;
 DROP INDEX release_country_idx_country;
 DROP INDEX release_group_alias_idx_primary;
 DROP INDEX release_group_alias_idx_release_group;

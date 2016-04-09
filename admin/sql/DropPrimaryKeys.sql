@@ -225,6 +225,7 @@ ALTER TABLE release DROP CONSTRAINT IF EXISTS release_pkey;
 ALTER TABLE release_alias DROP CONSTRAINT IF EXISTS release_alias_pkey;
 ALTER TABLE release_alias_type DROP CONSTRAINT IF EXISTS release_alias_type_pkey;
 ALTER TABLE release_annotation DROP CONSTRAINT IF EXISTS release_annotation_pkey;
+ALTER TABLE release_barcode DROP CONSTRAINT IF EXISTS release_barcode_pkey;
 ALTER TABLE release_country DROP CONSTRAINT IF EXISTS release_country_pkey;
 ALTER TABLE release_coverart DROP CONSTRAINT IF EXISTS release_coverart_pkey;
 ALTER TABLE release_gid_redirect DROP CONSTRAINT IF EXISTS release_gid_redirect_pkey;
