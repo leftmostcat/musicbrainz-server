@@ -2441,6 +2441,12 @@ CREATE TABLE release_alias ( -- replicate (verbose)
              CONSTRAINT primary_check
                  CHECK ((locale IS NULL AND primary_for_locale IS FALSE) OR (locale IS NOT NULL)));
 
+CREATE TABLE release_barcode ( -- replicate (verbose)
+    release             INTEGER NOT NULL, -- PK, references release.id
+    barcode             VARCHAR(255) NOT NULL, -- PK
+    created             TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
 CREATE TABLE release_country ( -- replicate (verbose)
   release INTEGER NOT NULL,  -- PK, references release.id
   country INTEGER NOT NULL,  -- PK, references country_area.area

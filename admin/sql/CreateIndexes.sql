@@ -408,6 +408,8 @@ CREATE INDEX release_raw_idx_modify_count ON release_raw (modify_count);
 CREATE INDEX release_label_idx_release ON release_label (release);
 CREATE INDEX release_label_idx_label ON release_label (label);
 
+CREATE INDEX release_barcode_idx_release ON release_barcode (release);
+
 CREATE INDEX release_country_idx_country ON release_country (country);
 
 
